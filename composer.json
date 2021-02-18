@@ -20,7 +20,7 @@
       "./vendor/bin/phpunit"
     ]
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "php": "^7.0|^8.0"
   },
