@@ -1,0 +1,30 @@
+{
+  "name": "aftonbladet/just-nu-calculator",
+  "description": "Calculates how many instances of \"JUST NU\" exists on the Aftonbladet front page at any given time!",
+  "keywords": ["aftonbladet"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stanislav Khromov",
+      "email": "stanislav.khromov@schibsted.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/just-nu.php"
+    ]
+  },
+  "scripts": {
+    "test": [
+      "./vendor/bin/phpunit"
+    ]
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.0|^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}

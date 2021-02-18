@@ -1,0 +1,3 @@
+vendor/
+local-dev/
+.phpunit.result.cache
